@@ -7,10 +7,11 @@
 //
 
 import SwiftUI
+import KingfisherSwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        KFImage(URL(string: "https://onevcat.com/assets/images/avatar.jpg"))
     }
 }
 
